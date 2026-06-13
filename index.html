@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare Vet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">🐾 PetCare Vet</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero text-center text-white">
+        <div>
+            <h1>🐶🐱 Clínica Veterinaria PetCare</h1>
+            <p>Cuidamos a quienes más amas.</p><a href="#contacto" class="btn btn-warning btn-lg">Agenda tu cita</a>
+        </div>
+    </header>
+    <img class="w-100 banner" src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee">
+
+    <section id="servicios" class="container py-5">
+        <h2 class="text-center mb-4">Servicios</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card service-card"><img
+                        src="https://purina.com.do/sites/default/files/2022-10/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg">
+                    <div class="card-body"><i class="fa fa-stethoscope"></i>
+                        <h5>Consulta General</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card"><img
+                        src="https://holavet.com.ar/wp-content/uploads/2022/04/close-up-on-veterinarian-taking-care-of-pet-1.webp">
+                    <div class="card-body"><i class="fa fa-syringe"></i>
+                        <h5>Cirugías</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card"><img
+                        src="https://neozoo.com.ar/wp-content/uploads/2023/06/Iconos-e-imagenes-09.png">
+                    <div class="card-body"><i class="fa fa-scissors"></i>
+                        <h5>Peluquería</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipo" class="container py-5 text-center">
+        <h2>Equipo</h2>
+        <div class="row">
+            <div class="col-md-4"><img class="team-img" src="https://randomuser.me/api/portraits/women/45.jpg">
+                <h5>Dra. Ana López</h5>
+            </div>
+            <div class="col-md-4"><img class="team-img" src="https://randomuser.me/api/portraits/men/75.jpg">
+                <h5>Dr. Carlos Méndez</h5>
+            </div>
+            <div class="col-md-4"><img class="team-img" src="https://randomuser.me/api/portraits/women/68.jpg">
+                <h5>Dra. Laura Gómez</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Lo que dicen nuestros clientes 💬</h2>
+
+        <div id="carouselTestimonios" class="carousel slide">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Excelente atención 🐶
+                                <img src="https://randomuser.me/api/portraits/men/1.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Genial 💙
+                                <img src="https://randomuser.me/api/portraits/women/2.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Muy atentos 🐾
+                                <img src="https://randomuser.me/api/portraits/men/3.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Recomendado ❤️
+                                <img src="https://randomuser.me/api/portraits/women/4.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Los mejores veterinarios 🐱
+                                <img src="https://randomuser.me/api/portraits/men/5.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Muy profesionales ⭐
+                                <img src="https://randomuser.me/api/portraits/women/6.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Tratan bien a mi mascota 🐕
+                                <img src="https://randomuser.me/api/portraits/men/7.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Volveré siempre 🥰
+                                <img src="https://randomuser.me/api/portraits/women/8.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Servicio impecable 💯
+                                <img src="https://randomuser.me/api/portraits/men/9.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="testimonial">
+                                Muy recomendado 🏆
+                                <img src="https://randomuser.me/api/portraits/women/10.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev outside-btn" type="button" data-bs-target="#carouselTestimonios"
+                data-bs-slide="prev">
+
+                <i class="fas fa-chevron-left"></i>
+
+            </button>
+
+            <button class="carousel-control-next outside-btn" type="button" data-bs-target="#carouselTestimonios"
+                data-bs-slide="next">
+
+                <i class="fas fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="container py-5">
+        <div class="contact-box p-4">
+
+            <h2 class="text-center mb-4">📞 Contáctanos</h2>
+
+            <div class="text-center mb-4">
+
+                <h3>
+                    <a href="tel:+18498603042" class="text-decoration-none" style="color: #5B21B6;">
+                        +1 (849) 860-3042
+                    </a>
+                </h3>
+
+                <a href="https://wa.me/18498603042" target="_blank" class="btn btn-success btn-lg">
+
+                    <i class="fab fa-whatsapp"></i>
+                    Escribir por WhatsApp
+
+                </a>
+
+            </div>
+
+            <form id="formContacto">
+
+                <input type="text" id="nombre" class="form-control mb-3" placeholder="Nombre completo" required>
+
+                <input type="email" id="email" class="form-control mb-3" placeholder="Correo electrónico" required>
+
+                <textarea id="mensaje" rows="5" class="form-control mb-3" placeholder="Escribe tu mensaje"
+                    required></textarea>
+
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fas fa-paper-plane"></i>
+                    Enviar mensaje
+
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <div>
+            <a href="https://www.facebook.com/erolaeny.jimenez.31" class="text-white mx-2" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/erolaenynotengo13/" class="text-white mx-2" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://github.com/erolaenyjimenez" class="text-white mx-2" target="_blank"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@erolaenyjimeneznotengo02" class="text-white mx-2" target="_blank"><i
+                    class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
